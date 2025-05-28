@@ -36,8 +36,9 @@ In a separate terminal, run the following command to seed the database:
 
 ```docker exec -it ecommerce-app sh -c "node seed/seed.js"```
 
-You are now ready to use the Ecommerce API on http://localhost:5000/api/
+You are now ready to use the Ecommerce API on http://localhost:5000/
 
+Note: Seed data is between 2025-01-10 to 2025-05-10, so make sure to use dates between this period in api calls. To have better query results please check the data in seed/seed.js
 ---
 
 ## API Endpoints
