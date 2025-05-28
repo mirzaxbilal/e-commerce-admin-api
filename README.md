@@ -48,33 +48,14 @@ Note: Seed data is between 2025-01-10 to 2025-05-10, so make sure to use dates b
 
 All product-related routes are prefixed with `/api/product`.
 
-#### `POST /api/product`
-- **Description**: Adds a new product to the system.
-- **Request Body**:
-  ```json
-  {
-    "name": "Product Name",
-    "categoryId": 1,
-    "price": 100,
-    "stock": 50
-  }
-  ```
-
-## API Endpoints
-
-### Product Endpoints
-
-All product-related routes are prefixed with `/api/product`.
-
 #### `POST /api/product/`
 - **Description**: Adds a new product to the system.
 - **Request Body**:
   ```json
   {
     "name": "Product Name",
-    "categoryId": 1,
-    "price": 100,
-    "stock": 50
+    "category_id": 1,
+    "price": 1199.99
   }
 
 #### `GET /api/product/`
